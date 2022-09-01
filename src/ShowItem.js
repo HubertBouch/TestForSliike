@@ -12,6 +12,7 @@ export default function Items(props){
                 console.log(item)
                 let url = (item.imageURLs[0]).toString()
                 return(
+                
                     <div className='itemContainer' key={item._id}>
                         <div>
                             <img src={url} alt=''/>
@@ -19,6 +20,7 @@ export default function Items(props){
                         <p className="priceText">${item.retailPrice} CAD</p>
                         </div>
                     </div>
+                
                 )
             })
         )
@@ -28,6 +30,6 @@ export default function Items(props){
     }
 }
     return (
-        <>{displayItems(props)}</>
+        <div className="allItem">{displayItems(props)}</div>
     )
 }
