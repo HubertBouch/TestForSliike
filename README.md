@@ -9,5 +9,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Notes
 
+I tried my best to make it the most responsive it can be! Somehow the items are not visible from a cellphone but on the desktop it is visible.
 
