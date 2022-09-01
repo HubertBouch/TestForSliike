@@ -1,38 +1,1162 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+.Main{
+  text-align: center;
+  height:1000px;
+  
+}
+.Header {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Furniture {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  font-family: 'Montserrat',sans-serif;
+  font-weight:800;
+  font-stretch: extra-expanded;
+  font-size: 44px;
+  color:#054c73;
+}
+img{
+  width: 100%;
+  height: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  object-fit: cover;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.text{
+  border-radius: 10px;
+  margin-top: 22%;
+  margin-left: 50%;
+  width: 45%;
+  height: 42%;
+  background-color: #dfe9f4;
+  position: absolute;
+}
+.newArrival{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 24px;
+  font-stretch: expanded;
+  font-weight: 100;
+  font-family: 'Montserrat',sans-serif;
+  color: black;
+}
+.collectionBox{
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 65%;
+
+}
+.collection{
+  font-family: 'Montserrat',sans-serif;
+  align-self: center;
+  font-size: 70px;
+  font-weight: 700;
+  color:#054c73 ;
+}
+.loremBox{
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 80%;
+}
+.lorem{
+  margin-left: 8%;
+  margin-top:5%;
+  position: absolute;
+  font-size: 20px;
+  font-stretch: expanded;
+  font-weight: 100;
+  font-family: 'Montserrat',sans-serif;
+  color: black;
+  flex-wrap: wrap;
+}
+.buttonContainer{
+  width: 32%;
+  height: 16%;
+  background-color: #054c73;
+  border-radius: 40px;
+  margin-top: 5%;
+  margin-left:5%;
+  align-content: center;
+  position: relative;
+}
+.buttonText{
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 11%;
+  margin-left: 30%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.flex-boxContainer{
+  position: absolute;
+  margin-top: 60%;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;background-color: #f2f5ff;
+}
+.deliveryContainer, .supportContainer,.authenticContainer{
+  width:25%;
+}
+.icon{
+  margin-top: 10%;
+  width:25%;
+}
+.deliveryText,.supportText,.authenticText{
+  margin-top: 3%;
+  margin-left:8%;
+  position: absolute;
+  font-size: 24px;
+  font-stretch: expanded;
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+  color: black;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.itemContainer{
+  position: relative;
+  width: 15%;
+  height: 10%;
+  display: flex;
+  flex-basis: content;
+}
+.item{
+  width: 30%;
+}
+.itemText{
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+  color: black;
+}
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 20em;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 10px;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
   }
 }
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
+  }
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 20em;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 10px;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
+  }
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 20em;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 10px;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
+  }
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 20em;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 10px;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
+  }
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 44px;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 10px;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
+  }
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 2em;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 1.5em;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: .3em;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: .75em;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 1em;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  .Main{
+    text-align: center;
+    height:1000px;
+    
+  }
+  .Header {
+    text-align: center;
+  }
+  .Furniture {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:800;
+    font-stretch: extra-expanded;
+    font-size: 50px;
+    color:#054c73;
+  }
+  img{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .container {
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  
+  .text{
+    border-radius: 10px;
+    margin-top: 22%;
+    margin-left: 50%;
+    width: 45%;
+    height: 42%;
+    background-color: #dfe9f4;
+    position: absolute;
+  }
+  .newArrival{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+  .collectionBox{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 65%;
+  
+  }
+  .collection{
+    font-family: 'Montserrat',sans-serif;
+    align-self: center;
+    font-size: 70px;
+    font-weight: 700;
+    color:#054c73 ;
+  }
+  .loremBox{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .lorem{
+    margin-left: 8%;
+    margin-top:5%;
+    position: absolute;
+    font-size: 20px;
+    font-stretch: expanded;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .buttonContainer{
+    width: 32%;
+    height: 16%;
+    background-color: #054c73;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left:5%;
+    align-content: center;
+    position: relative;
+  }
+  .buttonText{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11%;
+    margin-left: 30%;
+    color: white;
+  }
+  .flex-boxContainer{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;background-color: #f2f5ff;
+  }
+  .deliveryContainer, .supportContainer,.authenticContainer{
+    width:25%;
+  }
+  .icon{
+    margin-top: 10%;
+    width:25%;
+  }
+  .deliveryText,.supportText,.authenticText{
+    margin-top: 3%;
+    margin-left:8%;
+    position: absolute;
+    font-size: 24px;
+    font-stretch: expanded;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+    flex-wrap: wrap;
+  }
+  
+  .itemContainer{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    flex-basis: content;
+  }
+  .item{
+    width: 30%;
+  }
+  .itemText{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+  }
+}
+
