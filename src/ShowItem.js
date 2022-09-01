@@ -9,7 +9,6 @@ export default function Items(props){
         if(data.length > 0){
             return(
             data.map((item,index)=>{
-                console.log(item)
                 let url = (item.imageURLs[0]).toString()
                 return(
                 

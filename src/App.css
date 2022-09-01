@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 .Main{
   text-align: center;
-  height:1000px;
+  margin-bottom: 10em;
   
 }
 .Header {
@@ -170,7 +170,6 @@ img{
 @media all and (min-width:960px) and (max-width: 1024px) {
   .Main{
     text-align: center;
-    height:1000px;
     
   }
   .Header {
@@ -212,7 +211,7 @@ img{
   .newArrival{
     margin-left: 5%;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 1em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -227,7 +226,7 @@ img{
   .collection{
     font-family: 'Montserrat',sans-serif;
     align-self: center;
-    font-size: 70px;
+    font-size: 2em;
     font-weight: 700;
     color:#054c73 ;
   }
@@ -240,7 +239,7 @@ img{
     margin-left: 8%;
     margin-top:5%;
     position: absolute;
-    font-size: 20px;
+    font-size: .9em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -251,7 +250,7 @@ img{
     width: 32%;
     height: 16%;
     background-color: #054c73;
-    border-radius: 40px;
+    border-radius: 3em;
     margin-top: 5%;
     margin-left:5%;
     align-content: center;
@@ -261,10 +260,10 @@ img{
     text-transform: uppercase;
     position: absolute;
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 700;
-    margin-top: 11%;
-    margin-left: 30%;
+    margin-top: .7em;
+    margin-left: 1.7em;
     color: white;
     
   }
@@ -272,10 +271,11 @@ img{
     position: absolute;
     margin-top: 60%;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 1.2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;background-color: #f2f5ff;
+    justify-content: space-evenly;
+    background-color: #f2f5ff;
   }
   .deliveryContainer, .supportContainer,.authenticContainer{
     width:25%;
@@ -288,7 +288,7 @@ img{
     margin-top: 3%;
     margin-left:8%;
     position: absolute;
-    font-size: 24px;
+    font-size: 1em;
     font-stretch: expanded;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
@@ -303,9 +303,9 @@ img{
   }
   .itemContainer > div{
     margin-top: 5em;
-    margin-left: 5em;
-    width: 9%;
-    height: 9%;
+    margin-left: .1em;
+    width: 12em;
+    height: 12em;
     flex-basis: content;
     align-items: center;
   }
@@ -337,8 +337,6 @@ img{
 @media all and (min-width:801px) and (max-width: 959px) {
   .Main{
     text-align: center;
-    height:1000px;
-    
   }
   .Header {
     text-align: center;
@@ -351,7 +349,7 @@ img{
     font-family: 'Montserrat',sans-serif;
     font-weight:800;
     font-stretch: extra-expanded;
-    font-size: 44px;
+    font-size: 2em;
     color:#054c73;
   }
   img{
@@ -368,7 +366,7 @@ img{
   }
   
   .text{
-    border-radius: 10px;
+    border-radius: 2em;
     margin-top: 22%;
     margin-left: 50%;
     width: 45%;
@@ -379,7 +377,7 @@ img{
   .newArrival{
     margin-left: 5%;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: .8em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -394,7 +392,7 @@ img{
   .collection{
     font-family: 'Montserrat',sans-serif;
     align-self: center;
-    font-size: 70px;
+    font-size: 1.9em;
     font-weight: 700;
     color:#054c73 ;
   }
@@ -407,7 +405,7 @@ img{
     margin-left: 8%;
     margin-top:5%;
     position: absolute;
-    font-size: 20px;
+    font-size: .8em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -418,7 +416,7 @@ img{
     width: 32%;
     height: 16%;
     background-color: #054c73;
-    border-radius: 40px;
+    border-radius: 3em;
     margin-top: 5%;
     margin-left:5%;
     align-content: center;
@@ -428,10 +426,10 @@ img{
     text-transform: uppercase;
     position: absolute;
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: .9em;
     font-weight: 700;
-    margin-top: 11%;
-    margin-left: 30%;
+    margin-top: .9em;
+    margin-left: 2em;
     color: white;
     
   }
@@ -439,7 +437,7 @@ img{
     position: absolute;
     margin-top: 60%;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;background-color: #f2f5ff;
@@ -455,7 +453,7 @@ img{
     margin-top: 3%;
     margin-left:8%;
     position: absolute;
-    font-size: 24px;
+    font-size: 1em;
     font-stretch: expanded;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
@@ -463,7 +461,7 @@ img{
     flex-wrap: wrap;
   }
   .itemContainer{
-    margin-left: 9em;
+    margin-left: 4em;
     display: flex;
     height: 20%;
     width: 15%;
@@ -504,8 +502,6 @@ img{
 @media all and (min-width:769px) and (max-width: 800px) {
   .Main{
     text-align: center;
-    height:1000px;
-    
   }
   .Header {
     text-align: center;
@@ -518,7 +514,7 @@ img{
     font-family: 'Montserrat',sans-serif;
     font-weight:800;
     font-stretch: extra-expanded;
-    font-size: 44px;
+    font-size: 2em;
     color:#054c73;
   }
   img{
@@ -546,7 +542,7 @@ img{
   .newArrival{
     margin-left: 5%;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: .8em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -561,7 +557,7 @@ img{
   .collection{
     font-family: 'Montserrat',sans-serif;
     align-self: center;
-    font-size: 70px;
+    font-size: 1.5em;
     font-weight: 700;
     color:#054c73 ;
   }
@@ -574,7 +570,7 @@ img{
     margin-left: 8%;
     margin-top:5%;
     position: absolute;
-    font-size: 20px;
+    font-size: .6em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -595,10 +591,10 @@ img{
     text-transform: uppercase;
     position: absolute;
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: .7em;
     font-weight: 700;
-    margin-top: 11%;
-    margin-left: 30%;
+    margin-top: 1em;
+    margin-left: 2.2em;
     color: white;
     
   }
@@ -622,7 +618,7 @@ img{
     margin-top: 3%;
     margin-left:8%;
     position: absolute;
-    font-size: 24px;
+    font-size: .8em;
     font-stretch: expanded;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
@@ -630,7 +626,7 @@ img{
     flex-wrap: wrap;
   }
   .itemContainer{
-    margin-left: 9em;
+    margin-left: 3em;
     display: flex;
     height: 20%;
     width: 15%;
@@ -671,8 +667,6 @@ img{
 @media all and (min-width:569px) and (max-width: 768px) {
   .Main{
     text-align: center;
-    height:1000px;
-    
   }
   .Header {
     text-align: center;
@@ -685,7 +679,7 @@ img{
     font-family: 'Montserrat',sans-serif;
     font-weight:800;
     font-stretch: extra-expanded;
-    font-size: 44px;
+    font-size: 1.5em;
     color:#054c73;
   }
   img{
@@ -702,7 +696,7 @@ img{
   }
   
   .text{
-    border-radius: 10px;
+    border-radius: 1em;
     margin-top: 22%;
     margin-left: 50%;
     width: 45%;
@@ -713,7 +707,7 @@ img{
   .newArrival{
     margin-left: 5%;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: .5em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -728,7 +722,7 @@ img{
   .collection{
     font-family: 'Montserrat',sans-serif;
     align-self: center;
-    font-size: 70px;
+    font-size: 1.2em;
     font-weight: 700;
     color:#054c73 ;
   }
@@ -741,7 +735,7 @@ img{
     margin-left: 8%;
     margin-top:5%;
     position: absolute;
-    font-size: 20px;
+    font-size: .4em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -752,7 +746,7 @@ img{
     width: 32%;
     height: 16%;
     background-color: #054c73;
-    border-radius: 40px;
+    border-radius: 3em;
     margin-top: 5%;
     margin-left:5%;
     align-content: center;
@@ -762,10 +756,10 @@ img{
     text-transform: uppercase;
     position: absolute;
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: .6em;
     font-weight: 700;
-    margin-top: 11%;
-    margin-left: 30%;
+    margin-top: .9em;
+    margin-left: 1.8em;
     color: white;
     
   }
@@ -789,7 +783,7 @@ img{
     margin-top: 3%;
     margin-left:8%;
     position: absolute;
-    font-size: 24px;
+    font-size: .6em;
     font-stretch: expanded;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
@@ -797,7 +791,7 @@ img{
     flex-wrap: wrap;
   }
   .itemContainer{
-    margin-left: 9em;
+    margin-left: 2em;
     display: flex;
     height: 20%;
     width: 15%;
@@ -805,8 +799,8 @@ img{
   .itemContainer > div{
     margin-top: 5em;
     margin-left: 5em;
-    width: 9%;
-    height: 9%;
+    width: 8em;
+    height: 8em;
     flex-basis: content;
     align-items: center;
   }
@@ -817,12 +811,12 @@ img{
     align-self: center;
     font-family: 'Montserrat',sans-serif;
     color: black;
-    font-size: .75em;
+    font-size: .5em;
   }
   
   .priceText{
     font-weight: 500;
-    font-size: 1.25em;
+    font-size: 1em;
     align-items: center;
     align-self: center;
     font-family: 'Montserrat',sans-serif;
@@ -838,8 +832,6 @@ img{
 @media all and (min-width:481px) and (max-width: 568px) {
   .Main{
     text-align: center;
-    height:1000px;
-    
   }
   .Header {
     text-align: center;
@@ -852,7 +844,7 @@ img{
     font-family: 'Montserrat',sans-serif;
     font-weight:800;
     font-stretch: extra-expanded;
-    font-size: 44px;
+    font-size: 1em;
     color:#054c73;
   }
   img{
@@ -869,7 +861,7 @@ img{
   }
   
   .text{
-    border-radius: 10px;
+    border-radius: 1em;
     margin-top: 22%;
     margin-left: 50%;
     width: 45%;
@@ -880,7 +872,7 @@ img{
   .newArrival{
     margin-left: 5%;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: .5em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -895,7 +887,7 @@ img{
   .collection{
     font-family: 'Montserrat',sans-serif;
     align-self: center;
-    font-size: 70px;
+    font-size: 1em;
     font-weight: 700;
     color:#054c73 ;
   }
@@ -908,7 +900,7 @@ img{
     margin-left: 8%;
     margin-top:5%;
     position: absolute;
-    font-size: 20px;
+    font-size: .5em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -919,7 +911,7 @@ img{
     width: 32%;
     height: 16%;
     background-color: #054c73;
-    border-radius: 40px;
+    border-radius: 3em;
     margin-top: 5%;
     margin-left:5%;
     align-content: center;
@@ -929,10 +921,10 @@ img{
     text-transform: uppercase;
     position: absolute;
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: .5em;
     font-weight: 700;
-    margin-top: 11%;
-    margin-left: 30%;
+    margin-top: .9em;
+    margin-left: 2em;
     color: white;
     
   }
@@ -940,7 +932,7 @@ img{
     position: absolute;
     margin-top: 60%;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;background-color: #f2f5ff;
@@ -956,7 +948,7 @@ img{
     margin-top: 3%;
     margin-left:8%;
     position: absolute;
-    font-size: 24px;
+    font-size: .6em;
     font-stretch: expanded;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
@@ -964,14 +956,14 @@ img{
     flex-wrap: wrap;
   }
   .itemContainer{
-    margin-left: 9em;
+    margin-left: 2em;
     display: flex;
     height: 20%;
     width: 15%;
   }
   .itemContainer > div{
     margin-top: 5em;
-    margin-left: 5em;
+    margin-left: 2em;
     width: 9%;
     height: 9%;
     flex-basis: content;
@@ -1005,8 +997,6 @@ img{
 @media all and (min-width:321px) and (max-width: 480px) {
   .Main{
     text-align: center;
-    height:1000px;
-    
   }
   .Header {
     text-align: center;
@@ -1019,7 +1009,7 @@ img{
     font-family: 'Montserrat',sans-serif;
     font-weight:800;
     font-stretch: extra-expanded;
-    font-size: 44px;
+    font-size: .6em;
     color:#054c73;
   }
   img{
@@ -1047,7 +1037,7 @@ img{
   .newArrival{
     margin-left: 5%;
     margin-top: 5%;
-    font-size: 24px;
+    font-size: .3em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -1062,7 +1052,7 @@ img{
   .collection{
     font-family: 'Montserrat',sans-serif;
     align-self: center;
-    font-size: 70px;
+    font-size: .75em;
     font-weight: 700;
     color:#054c73 ;
   }
@@ -1075,7 +1065,7 @@ img{
     margin-left: 8%;
     margin-top:5%;
     position: absolute;
-    font-size: 20px;
+    font-size: 0.3em;
     font-stretch: expanded;
     font-weight: 100;
     font-family: 'Montserrat',sans-serif;
@@ -1096,10 +1086,10 @@ img{
     text-transform: uppercase;
     position: absolute;
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: 0.25em;
     font-weight: 700;
     margin-top: 11%;
-    margin-left: 30%;
+    margin-left: 3.1em;
     color: white;
     
   }
@@ -1107,7 +1097,7 @@ img{
     position: absolute;
     margin-top: 60%;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;background-color: #f2f5ff;
@@ -1123,7 +1113,7 @@ img{
     margin-top: 3%;
     margin-left:8%;
     position: absolute;
-    font-size: 24px;
+    font-size: .5em;
     font-stretch: expanded;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
@@ -1131,18 +1121,20 @@ img{
     flex-wrap: wrap;
   }
   .itemContainer{
-    margin-left: 9em;
+    margin-left: 4em;
     display: flex;
-    height: 20%;
-    width: 15%;
+    height: 1em;
+    width: 1em;
+    margin-top: 6em;
+    
   }
   .itemContainer > div{
-    margin-top: 5em;
     margin-left: 5em;
-    width: 9%;
-    height: 9%;
+    width: 6em;
+    height: 6em;
     flex-basis: content;
     align-items: center;
+
   }
   
   .itemText{
@@ -1151,12 +1143,12 @@ img{
     align-self: center;
     font-family: 'Montserrat',sans-serif;
     color: black;
-    font-size: .75em;
+    font-size: .3em;
   }
   
   .priceText{
     font-weight: 500;
-    font-size: 1.25em;
+    font-size: .5em;
     align-items: center;
     align-self: center;
     font-family: 'Montserrat',sans-serif;
